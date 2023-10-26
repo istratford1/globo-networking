@@ -20,8 +20,8 @@ variable "environment" {
 }
 
 variable "billing_code" {
-  type               = string
-  descritdescription = "required for resources"
+  type        = string
+  description = "required for resources"
 }
 
 variable "cidr_block" {
